@@ -34,7 +34,7 @@ public class Sreekar1 {
 		int[] a= {2,3};
 		int[] b= {1,2,2};
 		int[][] queries= {{1,4},{0,0,1},{1,5}};
-		Sreekar1 sree=new Sreekar1();
+		Sreekar1 sree1=new Sreekar1();
 		sree.findOcc(a, b, queries);
 	}
 
