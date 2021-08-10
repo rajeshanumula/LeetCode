@@ -1,9 +1,10 @@
 package com.practice;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 public class Sreekar1 {
+	
 	public int[] findOcc(int[] a, int[] b, int[][] queries) {
 		ArrayList<Integer> list=new ArrayList<Integer>();
 		HashMap<Integer, Integer> map=new HashMap<Integer, Integer>();
@@ -35,7 +36,7 @@ public class Sreekar1 {
 		int[] b= {1,2,2};
 		int[][] queries= {{1,4},{0,0,1},{1,5}};
 		Sreekar1 sree1=new Sreekar1();
-		sree.findOcc(a, b, queries);
+		sree1.findOcc(a, b, queries);
 	}
 
 }
